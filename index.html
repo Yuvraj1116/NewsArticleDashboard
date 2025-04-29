@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Article</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+        <header>
+            <h1>News Article Dashboard</h1>
+        </header>
+        <main>
+            <section class="filter-section">
+                <input type="text" placeholder="Filter by title " id="filterinput">
+                <select>
+                    <option>Sort by date</option>
+                    <option>Newest</option>
+                    <option>Oldest</option>
+                </select>
+            </section>
+            <section class="article" id="article-section"></section>
+
+            <div class="articlePop" id="article-pop">
+                <div class="artical-content">
+                  <button id="closeBtn">Close</button>
+                  <h2 id="article-Title"></h2>
+                  <p id="article-Content"></p>
+                </div>
+              </div>
+        </main>
+        <script src="index.js"></script>
+</body>
+</html>
